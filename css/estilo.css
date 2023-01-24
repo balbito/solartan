@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & family= Roboto:ital,wght@1,100 & display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+    
+
+/* HEADER */
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: #507255 solid 2px;
+}
+
+
+.tituloPrincipal {
+    color:#488B49;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.encabezado nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.encabezado nav ul li a {
+    color: #488B49;
+    text-decoration: none;
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.logo{
+    height: 75px;
+    width: auto;
+}
+
+/* MAIN */
+
+main {
+    background-image:url("../img/molinos-paneles.webp") ;
+    background-size: cover;
+    }
+
+.textos{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    
+    }
+  
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: #507255 solid 42px;
+    }
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}   
+
+nav ul li a {
+    color: #488B49;
+    text-decoration: none;
+    text-transform: uppercase;  
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* SERVICIOS */
+
+.servicios {
+    text-align: center;
+    background-color: #488B49;
+}
+
+.cajaPrincipal {
+    background-color: #507255;
+    border: 2px solid black;
+    height: 400px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.caja {
+    width: 320px;
+    height: 320px;
+    border-right: 2px solid black;
+    position: relative;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+
+
+/* PRODUCTOS */
+
+.productos {
+    text-align: center;
+    background-color: #488B49;
+}
+
+.articuloPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #507255;
+
+}
+
+.itemTres {
+    position: relative;
+    top: 1px;
+}
