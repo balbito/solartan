@@ -8,10 +8,11 @@ body{
 /* HEADER */
 
 .encabezado {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
+    height: 200px;
     border-bottom: #507255 solid 2px;
 }
 
@@ -20,6 +21,7 @@ body{
     color:#488B49;
     padding: 15px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .encabezado nav ul li {
@@ -141,19 +143,51 @@ nav ul li a {
     flex-direction: column;
     text-align: center;
     color: #507255;
+    
 }
 
 .nosotros {
     display: flex;
     flex-direction: column;
-    color: #507255;
+    color: black;
     font-size: 50px;
     text-decoration: underline;
 }
 
 .nosotrosHijo {
     color: black;
-    border: 4px solid black;
+    border: 2px solid black;
     font-size: 30px;
-    background-color: aqua;
+    background-color: white;
+    border-radius: 4px;
+}
+
+/* CONTACTO */
+
+.contactoPadre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.tamBotonForm {
+    width: 200px;
+    margin: auto;
 }
