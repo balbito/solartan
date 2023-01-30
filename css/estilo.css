@@ -8,11 +8,11 @@ body{
 /* HEADER */
 
 .encabezado {
-    font-family: 'Courier New', Courier, monospace;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+   
     border-bottom: #507255 solid 2px;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 .encabezado nav ul li {
-    display: inline-block;
+    
     list-style-type: none;
 }
 
@@ -35,13 +35,23 @@ body{
     text-transform: uppercase;  
     font-weight: bold;
     font-size: 1.5rem;
-    margin-left: 20px;
 }
 
 .logo{
     height: 75px;
     width: auto;
 }
+
+.inicio {
+    color: #488B49;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
 
 /* MAIN */
 
@@ -57,13 +67,13 @@ main {
     text-align: center;
     font-size: 20px;
     color: black;
-    
     }
   
 
 /* FOOTER */
 
 footer {
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -136,6 +146,11 @@ nav ul li a {
 
 }
 
+.climatizacion {
+    width: 100px;
+    height: 700px;
+}
+
 /* NOSOTROS */
 
 .nosotrosPadre{
@@ -188,6 +203,7 @@ nav ul li a {
 }
 
 .tamBotonForm {
-    width: 200px;
+    width: 25vw;
     margin: auto;
 }
+

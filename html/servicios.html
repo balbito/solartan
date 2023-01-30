@@ -7,74 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solartan</title>
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
     <header class="encabezado">
-        <img class= logo src="../img/logocerca.png" alt="logocerca">
-        <h1 class="tituloPrincipal">Solartan</h1>
+        <img class=logo src="../img/logocerca.png" alt="logocerca">
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand inicio" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
+    <h1 class="text-center tituloPrincipal">Solartan</h1>
     <div class="servicios">
-        <h2>SERVICIOS</h2>
+        <h2 class="text-center">SERVICIOS</h2>
 
-   
-        <h3> Apostando a la Energia Renovable</h3>
-        <div class="cajaPrincipal">
-            <article class="caja itemUno">
+        <div class="row">
+            <article class="col-xl-3 col-md-6 col-sm-12 text-center">
                 <h3>INSTALACION</h3>
                 <p>Realizamos la instalación de todos nuestros productos asegurando garantía de satisfacción y calidad.
                 </p>
             </article>
 
-            <article class="caja itemDos">
+            <article class="col-xl-3 col-md-6 col-sm-12 text-center">
                 <h3>SERVICIO TECNICO</h3>
                 <p>Ofrecemos servicio técnico para una amplia variedad de productos del rubro.</p>
             </article>
 
-            <article class="caja itemTres">
+            <article class="col-xl-3 col-md-6 col-sm-12 text-center">
                 <h3>VENTA</h3>
                 <p>Ofrecemos gran variedad de productos para generar ahorro y beneficios en el consumo de energía.</p>
             </article>
 
-            <article class="caja itemCuatro">
+            <article class="col-xl-3 col-md-6 col-sm-12 text-center">
                 <h3>RENOVACION</h3>
                 <p>Realizamos renovaciones de la instalación, combinando con tecnologías innovadoras, o reemplazando las
                     existentes con dispositivos más actualizados.
                     A fin de sacar la máxima eficiencia al sistema</p>
             </article>
-
-
         </div>
 
 
 
-   
+
+
+
+
+
     </div>
     <footer>
         <h4>Siguenos en nuestras redes sociales</h4>
         <nav>
             <ul>
-               <li><a href="">Facebook</a></li>
-               <li><a href="">Instagram</a></li>
-               <li><a href="">YouTube</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">YouTube</a></li>
             </ul>
         </nav>
-       
-    </footer>
 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
