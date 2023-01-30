@@ -16,12 +16,22 @@ body{
     border-bottom: #507255 solid 2px;
 }
 
-
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
 .tituloPrincipal {
     color:#488B49;
     padding: 15px;
     font-size: 40px;
     font-weight: bold;
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .encabezado nav ul li {
