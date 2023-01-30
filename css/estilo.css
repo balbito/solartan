@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2? family= Pacifico & family= Roboto:ital,wght@1,100 & display=swap');
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-    
 
 /* HEADER */
 
 .encabezado {
-    
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
     border-bottom: #507255 solid 2px;
 }
 
 @keyframes texto {
     0% {
-        opacity: 0;
+        opacity: 0%;
     }
+
     100% {
         opacity: 100%;
     }
 }
+
 .tituloPrincipal {
-    color:#488B49;
+    color: #488B49;
     padding: 15px;
     font-size: 40px;
     font-weight: bold;
@@ -35,19 +35,18 @@ body{
 }
 
 .encabezado nav ul li {
-    
     list-style-type: none;
 }
 
 .encabezado nav ul li a {
     color: #488B49;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.logo{
+.logo {
     height: 75px;
     width: auto;
 }
@@ -60,52 +59,43 @@ body{
     font-size: 1.5rem;
 }
 
-
-
-
 /* MAIN */
 
 main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image:url("../img/molinos-paneles.webp") ;
+    background-image: url("../img/molinos-paneles.webp");
     background-size: cover;
-   }
+}
 
-.textos{
+.textos {
     text-align: center;
     font-size: 20px;
     color: black;
-    }
-  
+}
 
 /* FOOTER */
 
 footer {
-    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-    }
+}
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
-}   
+}
 
 nav ul li a {
     color: #488B49;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-weight: bold;
     margin-left: 20px;
 }
-
-
-
-
 
 /* SERVICIOS */
 .subtitulos {
@@ -117,6 +107,7 @@ nav ul li a {
 .parrafos {
     font-size: 1.25rem;
 }
+
 .servicios {
     display: flex;
     flex-direction: column;
@@ -126,25 +117,19 @@ nav ul li a {
 
 .cajaPrincipal {
     background-color: #507255;
-   
     height: 400px;
     padding: 15px;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .caja {
     width: 320px;
     height: 320px;
     border-right: 5px solid black;
-    
     padding: 40px;
     font-size: 20px;
 }
-
-
-
 
 /* PRODUCTOS */
 
@@ -171,12 +156,11 @@ nav ul li a {
 
 /* NOSOTROS */
 
-.nosotrosPadre{
+.nosotrosPadre {
     display: flex;
     flex-direction: column;
     text-align: center;
     color: #507255;
-    
 }
 
 .nosotros {
@@ -224,4 +208,3 @@ nav ul li a {
     width: 25vw;
     margin: auto;
 }
-
