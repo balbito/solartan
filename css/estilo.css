@@ -98,7 +98,15 @@ nav ul li a {
 
 
 /* SERVICIOS */
+.subtitulos {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+}
 
+.parrafos {
+    font-size: 1.25rem;
+}
 .servicios {
     display: flex;
     flex-direction: column;
