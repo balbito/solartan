@@ -1,210 +1,201 @@
-@import url('https://fonts.googleapis.com/css2? family= Pacifico & family= Roboto:ital,wght@1,100 & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Pacifico & family= Roboto:ital,wght@1,100 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* HEADER */
-
-.encabezado {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: #507255 solid 2px;
-}
-
 @keyframes texto {
-    0% {
-        opacity: 0%;
-    }
-
-    100% {
-        opacity: 100%;
-    }
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: #507255 solid 2px;
+}
+.encabezado nav ul li {
+  list-style-type: none;
+}
+.encabezado nav ul li a {
+  color: #488B49;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .tituloPrincipal {
-    color: #488B49;
-    padding: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    animation-name: texto;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-.encabezado nav ul li {
-    list-style-type: none;
-}
-
-.encabezado nav ul li a {
-    color: #488B49;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
+  color: #488B49;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .logo {
-    height: 75px;
-    width: auto;
+  height: 75px;
+  width: auto;
 }
 
 .inicio {
-    color: #488B49;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
+  color: #488B49;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /* MAIN */
-
 main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: url("../img/molinos-paneles.webp");
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../img/molinos-paneles.webp");
+  background-size: cover;
 }
 
 .textos {
-    text-align: center;
-    font-size: 20px;
-    color: black;
+  text-align: center;
+  font-size: 20px;
+  color: black;
 }
 
 /* FOOTER */
-
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
 }
-
 nav ul li a {
-    color: #488B49;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 20px;
+  color: #488B49;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 /* SERVICIOS */
 .subtitulos {
-    font-weight: bolder;
-    text-decoration: underline;
-    color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: white;
 }
 
 .parrafos {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .servicios {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #488B49;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #507255;
 }
 
 .cajaPrincipal {
-    background-color: #507255;
-    height: 400px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
+  height: 400px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .caja {
-    width: 320px;
-    height: 320px;
-    border-right: 5px solid black;
-    padding: 40px;
-    font-size: 20px;
+  width: 320px;
+  height: 320px;
+  border-right: 5px solid black;
+  padding: 40px;
+  font-size: 20px;
 }
 
 /* PRODUCTOS */
-
 .productos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #488B49;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #507255;
 }
 
 .articuloPadre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #507255;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .climatizacion {
-    width: 100px;
-    height: 700px;
+  width: 100px;
+  height: 700px;
 }
 
 /* NOSOTROS */
-
 .nosotrosPadre {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #507255;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #507255;
 }
 
 .nosotros {
-    display: flex;
-    flex-direction: column;
-    color: black;
-    font-size: 50px;
-    text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
 .nosotrosHijo {
-    color: black;
-    border: 2px solid black;
-    font-size: 30px;
-    background-color: white;
-    border-radius: 4px;
+  color: black;
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 4px;
 }
 
 /* CONTACTO */
-
 .contactoPadre {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .contacto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 50vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
 }
 
 .campo {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    margin: 10px auto;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
 }
 
 .tamBotonForm {
-    width: 25vw;
-    margin: auto;
+  width: 25vw;
+  margin: auto;
 }
+
+/*# sourceMappingURL=estilo.css.map */

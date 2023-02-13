@@ -1,0 +1,23 @@
+/* FOOTER */
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+nav {
+	ul {
+		li {
+			display: inline-block;
+			list-style-type: none;
+			a {
+				color: $color_encabezado;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: bold;
+				margin-left: 20px;
+			}
+		}
+	}
+}

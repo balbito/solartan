@@ -1,0 +1,57 @@
+/* HEADER */
+
+@keyframes texto {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: #507255 solid 2px;
+
+    nav {
+        ul {
+            li {
+                list-style-type: none;
+
+                a {
+                    color: $color_encabezado;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.tituloPrincipal {
+    color: $color_encabezado;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+}
+
+.inicio {
+    color: $color_encabezado;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

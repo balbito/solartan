@@ -1,0 +1,27 @@
+/* CONTACTO */
+
+
+.contactoPadre {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	align-items: center;
+	justify-content: center;
+}
+.contacto {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 50vw;
+}
+.campo {
+	display: block;
+	width: 50%;
+	padding: 10px;
+	margin: 10px auto;
+}
+.tamBotonForm {
+	width: 25vw;
+	margin: auto;
+}
