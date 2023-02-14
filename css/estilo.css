@@ -27,21 +27,11 @@ body {
   list-style-type: none;
 }
 .encabezado nav ul li a {
-  color: #488B49;
-  text-decoration: none;
+  color: #507255;
+  text-decoration: underline;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.tituloPrincipal {
-  color: #488B49;
-  padding: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  animation-name: texto;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 }
 
 .logo {
@@ -50,7 +40,7 @@ body {
 }
 
 .inicio {
-  color: #488B49;
+  color: #507255;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -64,14 +54,68 @@ main {
   text-align: center;
   background-image: url("../img/molinos-paneles.webp");
   background-size: cover;
+  height: 750px;
 }
 
-.textos {
+.tituloPrincipal {
+  position: relative;
+  top: 40%;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
   text-align: center;
-  font-size: 20px;
-  color: black;
 }
 
+.tituloSecundario {
+  position: relative;
+  top: 45%;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* INICIO */
+@media (min-width: 350px) {
+  .energiaRenovable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+    background-color: bisque;
+  }
+  .tituloRenovable {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .parrafoRenovable {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+  }
+  .energiaFotovoltaica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+    height: 1200px;
+  }
+  .offgrid {
+    height: 60%;
+    width: 60%;
+  }
+  .tituloFotovoltaica {
+    font-size: 25px;
+    text-decoration: underline;
+    color: darkgreen;
+  }
+}
 /* FOOTER */
 footer {
   display: flex;
@@ -85,7 +129,7 @@ nav ul li {
   list-style-type: none;
 }
 nav ul li a {
-  color: #488B49;
+  color: #507255;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -110,21 +154,6 @@ nav ul li a {
   background-color: #507255;
 }
 
-.cajaPrincipal {
-  height: 400px;
-  padding: 15px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.caja {
-  width: 320px;
-  height: 320px;
-  border-right: 5px solid black;
-  padding: 40px;
-  font-size: 20px;
-}
-
 /* PRODUCTOS */
 .productos {
   display: flex;
@@ -138,11 +167,6 @@ nav ul li a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.climatizacion {
-  width: 100px;
-  height: 700px;
 }
 
 /* NOSOTROS */
@@ -183,18 +207,18 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 50vw;
+  width: 60%;
 }
 
 .campo {
   display: block;
-  width: 50%;
+  width: 60%;
   padding: 10px;
   margin: 10px auto;
 }
 
 .tamBotonForm {
-  width: 25vw;
+  width: 60%;
   margin: auto;
 }
 

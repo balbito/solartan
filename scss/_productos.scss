@@ -1,19 +1,17 @@
 /* PRODUCTOS */
 
-.productos {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	background-color: $background-color_servicios;
-}
-.articuloPadre {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+    .productos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: $background-color_servicios;
+    }
+    .articuloPadre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
 
-}
-.climatizacion {
-	width: 100px;
-	height: 700px;
-}

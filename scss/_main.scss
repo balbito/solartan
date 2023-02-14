@@ -1,14 +1,28 @@
 /* MAIN */
 
-main {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	background-image: url("../img/molinos-paneles.webp");
-	background-size: cover;
-}
-.textos {
-	text-align: center;
-	font-size: 20px;
-	color: $color_textos;
-}
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("../img/molinos-paneles.webp");
+        background-size: cover;
+        height: 750px;
+      }
+
+    .tituloPrincipal {
+        position: relative;
+        top: 40%;
+        color: $color_titulos;
+        padding: 15px;
+        font-size: 70px;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px #000;
+        text-align: center;
+    }
+    .tituloSecundario {
+        position: relative;
+        top: 45%;
+        color: $color_titulos;
+        text-shadow: 1px 1px 3px #000;
+    }
+
