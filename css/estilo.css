@@ -82,7 +82,8 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 650px;
+    height: 100%;
+    width: 100%;
     background-color: bisque;
   }
   .tituloRenovable {
@@ -150,8 +151,13 @@ nav ul li a {
 .servicios {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: #507255;
+}
+
+.imageninstalacion {
+  height: 300px;
 }
 
 /* PRODUCTOS */
@@ -173,24 +179,41 @@ nav ul li a {
 .nosotrosPadre {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #507255;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
 }
 
 .nosotros {
   display: flex;
   flex-direction: column;
-  color: black;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 50px;
   text-decoration: underline;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .nosotrosHijo {
-  color: black;
-  border: 2px solid black;
-  font-size: 30px;
-  background-color: white;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #444444;
   border-radius: 4px;
+  box-shadow: 3px 3px 10px;
+  text-align: center;
+  width: 40%;
+}
+
+.imagenNosotros {
+  height: 500px;
+}
+
+.imagenOngrid {
+  width: 50%;
 }
 
 /* CONTACTO */
