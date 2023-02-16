@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Pacifico & family= Roboto:ital,wght@1,100 & display=swap");
 * {
   margin: 0;
@@ -28,9 +29,9 @@ body {
 }
 .encabezado nav ul li a {
   color: #507255;
-  text-decoration: underline;
   text-transform: uppercase;
   font-weight: bold;
+  text-decoration: underline;
   font-size: 1.5rem;
 }
 
@@ -134,10 +135,15 @@ nav ul li {
 }
 nav ul li a {
   color: #507255;
-  text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
   margin-left: 20px;
+}
+
+h4 {
+  color: #507255;
+  font-weight: lighter;
 }
 
 /* SERVICIOS */
@@ -163,19 +169,21 @@ nav ul li a {
   height: 300px;
 }
 
-/* PRODUCTOS */
-.productos {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #507255;
+.tituloServicios {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
 }
 
-.articuloPadre {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+/* PRODUCTOS */
+.tamaño {
+  height: 400px;
+}
+
+.titulosProductos {
+  color: seagreen;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
 }
 
 /* NOSOTROS */
@@ -246,6 +254,12 @@ nav ul li a {
 .tamBotonForm {
   width: 60%;
   margin: auto;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo.css.map */

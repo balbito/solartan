@@ -1,17 +1,13 @@
 /* PRODUCTOS */
+.tamaño {
+    height: 400px;
+}
 
-    .productos {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: $background-color_servicios;
-    }
-    .articuloPadre {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    
-    }
+.titulosProductos {
+    color: seagreen;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+   
     
 

@@ -12,12 +12,15 @@ nav {
 			display: inline-block;
 			list-style-type: none;
 			a {
-				color: $color_encabezado;
+				@include anclas;
 				text-decoration: none;
-				text-transform: uppercase;
-				font-weight: bold;
 				margin-left: 20px;
 			}
 		}
 	}
+}
+
+h4 {
+	color:$color_encabezado;
+	font-weight: lighter;
 }
