@@ -4,10 +4,11 @@
 .contactoPadre {
 	display: flex;
 	flex-direction: column;
-	margin-top: 50px;
+	
 	margin-bottom: 50px;
 	align-items: center;
 	justify-content: center;
+	background-image: url("../img/molinos-paneles.webp");
 }
 .contacto {
 	display: flex;
@@ -30,4 +31,20 @@
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+@media (max-width:450px) {
+	.email {
+		color: white;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.campo {
+		width: 80%;
+	}
+
+	.tamBotonForm {
+		width: 80%;
+	}
 }

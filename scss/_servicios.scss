@@ -6,7 +6,8 @@
 	color: $color_subtitulos;
 }
 .parrafos {
-	font-size: 1.25rem;
+	font-size: 1rem;
+	padding: 0 50px 0 50px;
 }
 .servicios {
 	display: flex;
@@ -14,10 +15,12 @@
     align-items: center;
 	text-align: center;
 	background-color: $background-color_servicios;
+	justify-content: space-around;
 }
 
 .imageninstalacion {
-    height: 300px;
+	width: 60%;
+	padding-bottom: 50px;
 }
 .tituloServicios {
 	color: $color_titulos;
