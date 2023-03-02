@@ -13,6 +13,8 @@
 .tituloRenovable {
     font-size: 30px;
     text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
 }
 
 .parrafoRenovable {
@@ -23,6 +25,8 @@
     border-radius: 4px;
     box-shadow: 3px 3px 10px;
     text-align: center;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px #000;
 }
 
 .energiaFotovoltaica {
@@ -30,7 +34,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: coral;
+    background-color: bisque;
     height: 1200px;
 }
 
@@ -41,6 +45,7 @@
 .tituloFotovoltaica {
     font-size: 25px;
     text-decoration: underline;
-    color: darkgreen;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
 }
 }

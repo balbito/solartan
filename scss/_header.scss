@@ -4,6 +4,7 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
 @keyframes texto {
     0% {
         opacity: 0%;
@@ -19,9 +20,12 @@
     align-items: center;
     justify-content: space-around;
     border-bottom: #507255 solid 2px;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
     nav {
+
         ul {
             li {
                 list-style-type: none;
@@ -29,9 +33,9 @@
                 a {
                     @include anclas;
                     text-decoration: underline;
-                    
-                    
-                    font-size: 1.5rem;
+                    text-shadow: 1px 1px 1px #000;
+
+                    font-size: 1rem;
                 }
             }
         }
@@ -41,12 +45,14 @@
 .logo {
     height: 75px;
     width: auto;
+    background: none;
 }
 
 .inicio {
     color: $color_encabezado;
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000;
 }
